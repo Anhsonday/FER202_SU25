@@ -1,14 +1,21 @@
-
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function MyProfile() {
   return (
-    <div style={{ padding: '20px', fontFamily: 'Arial' }}>
-      <h1>Xin chào, mình là Sơn!</h1>
-      <p>
-        Mình là một người yêu thích công nghệ và lập trình. Mình đang học React để phát triển các ứng dụng web hiện đại.
-      </p>
-    </div>
+    <Container className="my-4">
+      <Row>
+        <Col>
+          <h1 className="text-dark">Huynh Ngoc Son</h1>
+          <p className="lead" style={{ color: '#555' }}>
+            <strong>Giới thiệu:</strong> Tôi là một lập trình viên React với niềm đam mê công nghệ và học hỏi.
+          </p>
+          <p className="text-muted">
+            Xin chào! Mình là một lập trình viên React, yêu thích học hỏi và khám phá những công nghệ mới.
+          </p>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
