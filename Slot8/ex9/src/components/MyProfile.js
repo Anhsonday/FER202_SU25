@@ -6,7 +6,7 @@ function MyProfile() {
     <Container className="my-4">
       <Row>
         <Col>
-          <h1 className="text-dark">Huynh Ngoc Son</h1>
+          <h1 className="text-danger-dark">Huynh Ngoc Son</h1>
           <p className="lead" style={{ color: '#555' }}>
             <strong>Giới thiệu:</strong> Tôi là một lập trình viên React với niềm đam mê công nghệ và học hỏi.
           </p>

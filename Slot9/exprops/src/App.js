@@ -1,4 +1,4 @@
-// App.js
+
 import "./App.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Welcome from "./components/Welcome";

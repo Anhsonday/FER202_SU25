@@ -32,7 +32,7 @@ const SimpleCard = () => {
 
   return (
     <div className="p-4" style={{ maxWidth: '800px', margin: '0 auto' }}>
-      <Card className="mb-3" border="primary">
+      <Card className="mb-3" border="dark" style={{ boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
         <Row className="g-0">
           <Col md={3}>
             <CardImage url={cardData.imageUrl} alt={cardData.title} />

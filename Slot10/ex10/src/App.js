@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import React, { useState } from 'react';
 
+import React, { useState } from 'react';
+import { Button} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   const [count, setCount] = useState(0);
   const [name, setName] = useState('Adam');
   const [age, setAge] = useState(35);
-  const [products, setProducts] = useState([
+  const [products] = useState([
     { id: 1, name: 'Sản phẩm A' },
     { id: 2, name: 'Sản phẩm B' },
     { id: 3, name: 'Sản phẩm C' },
@@ -28,9 +28,9 @@ function App() {
       <div>
         <h1>ViDu1</h1>
         <p>You clicked {count} times</p>
-        <button onClick={() => setCount(count + 1)}>
+        <Button onMouseUp={() => setCount(count + 1)}>
           Click me
-        </button>
+        </Button>
       </div>
       <div>
         <h1>ViDu2</h1>
